@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CAC4C6F19D80E3C00AA00F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC4C6E19D80E3C00AA00F2 /* AppDelegate.swift */; };
+		2CAC4C7119D80E3C00AA00F2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC4C7019D80E3C00AA00F2 /* GameScene.sks */; };
+		2CAC4C7319D80E3C00AA00F2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC4C7219D80E3C00AA00F2 /* GameScene.swift */; };
+		2CAC4C7519D80E3C00AA00F2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC4C7419D80E3C00AA00F2 /* GameViewController.swift */; };
+		2CAC4C7819D80E3C00AA00F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC4C7619D80E3C00AA00F2 /* Main.storyboard */; };
+		2CAC4C7A19D80E3C00AA00F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC4C7919D80E3C00AA00F2 /* Images.xcassets */; };
+		2CAC4C7D19D80E3C00AA00F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC4C7B19D80E3C00AA00F2 /* LaunchScreen.xib */; };
+		2CAC4C8919D80E3C00AA00F2 /* LeMarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC4C8819D80E3C00AA00F2 /* LeMarioTests.swift */; };
+		2CAC4C9319D8311400AA00F2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC4C9219D8311400AA00F2 /* Player.swift */; };
+		2CAC4C9519D8355C00AA00F2 /* Enemies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC4C9419D8355C00AA00F2 /* Enemies.plist */; };
+		2CAC4CC719D8467100AA00F2 /* Rectangle1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC4CC619D8467100AA00F2 /* Rectangle1.png */; };
+		2CF026AC19D858BA00034C1D /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CF026AA19D858BA00034C1D /* MyParticle.sks */; };
+		2CF026AD19D858BA00034C1D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF026AB19D858BA00034C1D /* spark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CAC4C8319D80E3C00AA00F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CAC4C6119D80E3C00AA00F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CAC4C6819D80E3C00AA00F2;
+			remoteInfo = LeMario;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CAC4C6919D80E3C00AA00F2 /* LeMario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeMario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAC4C6D19D80E3C00AA00F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAC4C6E19D80E3C00AA00F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CAC4C7019D80E3C00AA00F2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2CAC4C7219D80E3C00AA00F2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2CAC4C7419D80E3C00AA00F2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2CAC4C7719D80E3C00AA00F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CAC4C7919D80E3C00AA00F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CAC4C7C19D80E3C00AA00F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2CAC4C8219D80E3C00AA00F2 /* LeMarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeMarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAC4C8719D80E3C00AA00F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAC4C8819D80E3C00AA00F2 /* LeMarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeMarioTests.swift; sourceTree = "<group>"; };
+		2CAC4C9219D8311400AA00F2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2CAC4C9419D8355C00AA00F2 /* Enemies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Enemies.plist; sourceTree = "<group>"; };
+		2CAC4CC619D8467100AA00F2 /* Rectangle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle1.png; sourceTree = "<group>"; };
+		2CF026AA19D858BA00034C1D /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		2CF026AB19D858BA00034C1D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CAC4C6619D80E3C00AA00F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CAC4C7F19D80E3C00AA00F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CAC4C6019D80E3C00AA00F2 = {
+			isa = PBXGroup;
+			children = (
+				2CAC4C6B19D80E3C00AA00F2 /* LeMario */,
+				2CAC4C8519D80E3C00AA00F2 /* LeMarioTests */,
+				2CAC4C6A19D80E3C00AA00F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CAC4C6A19D80E3C00AA00F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CAC4C6919D80E3C00AA00F2 /* LeMario.app */,
+				2CAC4C8219D80E3C00AA00F2 /* LeMarioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CAC4C6B19D80E3C00AA00F2 /* LeMario */ = {
+			isa = PBXGroup;
+			children = (
+				2CAC4C6E19D80E3C00AA00F2 /* AppDelegate.swift */,
+				2CAC4C7019D80E3C00AA00F2 /* GameScene.sks */,
+				2CAC4C7219D80E3C00AA00F2 /* GameScene.swift */,
+				2CAC4C9219D8311400AA00F2 /* Player.swift */,
+				2CAC4C7419D80E3C00AA00F2 /* GameViewController.swift */,
+				2CAC4C7619D80E3C00AA00F2 /* Main.storyboard */,
+				2CAC4CC619D8467100AA00F2 /* Rectangle1.png */,
+				2CAC4C7919D80E3C00AA00F2 /* Images.xcassets */,
+				2CAC4C7B19D80E3C00AA00F2 /* LaunchScreen.xib */,
+				2CAC4C6C19D80E3C00AA00F2 /* Supporting Files */,
+				2CAC4C9419D8355C00AA00F2 /* Enemies.plist */,
+				2CF026AA19D858BA00034C1D /* MyParticle.sks */,
+				2CF026AB19D858BA00034C1D /* spark.png */,
+			);
+			path = LeMario;
+			sourceTree = "<group>";
+		};
+		2CAC4C6C19D80E3C00AA00F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CAC4C6D19D80E3C00AA00F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CAC4C8519D80E3C00AA00F2 /* LeMarioTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CAC4C8819D80E3C00AA00F2 /* LeMarioTests.swift */,
+				2CAC4C8619D80E3C00AA00F2 /* Supporting Files */,
+			);
+			path = LeMarioTests;
+			sourceTree = "<group>";
+		};
+		2CAC4C8619D80E3C00AA00F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CAC4C8719D80E3C00AA00F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CAC4C6819D80E3C00AA00F2 /* LeMario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CAC4C8C19D80E3C00AA00F2 /* Build configuration list for PBXNativeTarget "LeMario" */;
+			buildPhases = (
+				2CAC4C6519D80E3C00AA00F2 /* Sources */,
+				2CAC4C6619D80E3C00AA00F2 /* Frameworks */,
+				2CAC4C6719D80E3C00AA00F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeMario;
+			productName = LeMario;
+			productReference = 2CAC4C6919D80E3C00AA00F2 /* LeMario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CAC4C8119D80E3C00AA00F2 /* LeMarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CAC4C8F19D80E3C00AA00F2 /* Build configuration list for PBXNativeTarget "LeMarioTests" */;
+			buildPhases = (
+				2CAC4C7E19D80E3C00AA00F2 /* Sources */,
+				2CAC4C7F19D80E3C00AA00F2 /* Frameworks */,
+				2CAC4C8019D80E3C00AA00F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CAC4C8419D80E3C00AA00F2 /* PBXTargetDependency */,
+			);
+			name = LeMarioTests;
+			productName = LeMarioTests;
+			productReference = 2CAC4C8219D80E3C00AA00F2 /* LeMarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CAC4C6119D80E3C00AA00F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = metodowhite;
+				TargetAttributes = {
+					2CAC4C6819D80E3C00AA00F2 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2CAC4C8119D80E3C00AA00F2 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 2CAC4C6819D80E3C00AA00F2;
+					};
+				};
+			};
+			buildConfigurationList = 2CAC4C6419D80E3C00AA00F2 /* Build configuration list for PBXProject "LeMario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CAC4C6019D80E3C00AA00F2;
+			productRefGroup = 2CAC4C6A19D80E3C00AA00F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CAC4C6819D80E3C00AA00F2 /* LeMario */,
+				2CAC4C8119D80E3C00AA00F2 /* LeMarioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CAC4C6719D80E3C00AA00F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAC4C7D19D80E3C00AA00F2 /* LaunchScreen.xib in Resources */,
+				2CAC4CC719D8467100AA00F2 /* Rectangle1.png in Resources */,
+				2CAC4C9519D8355C00AA00F2 /* Enemies.plist in Resources */,
+				2CAC4C7A19D80E3C00AA00F2 /* Images.xcassets in Resources */,
+				2CF026AC19D858BA00034C1D /* MyParticle.sks in Resources */,
+				2CF026AD19D858BA00034C1D /* spark.png in Resources */,
+				2CAC4C7119D80E3C00AA00F2 /* GameScene.sks in Resources */,
+				2CAC4C7819D80E3C00AA00F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CAC4C8019D80E3C00AA00F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CAC4C6519D80E3C00AA00F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAC4C9319D8311400AA00F2 /* Player.swift in Sources */,
+				2CAC4C7319D80E3C00AA00F2 /* GameScene.swift in Sources */,
+				2CAC4C7519D80E3C00AA00F2 /* GameViewController.swift in Sources */,
+				2CAC4C6F19D80E3C00AA00F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CAC4C7E19D80E3C00AA00F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAC4C8919D80E3C00AA00F2 /* LeMarioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CAC4C8419D80E3C00AA00F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CAC4C6819D80E3C00AA00F2 /* LeMario */;
+			targetProxy = 2CAC4C8319D80E3C00AA00F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CAC4C7619D80E3C00AA00F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAC4C7719D80E3C00AA00F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CAC4C7B19D80E3C00AA00F2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAC4C7C19D80E3C00AA00F2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CAC4C8A19D80E3C00AA00F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CAC4C8B19D80E3C00AA00F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CAC4C8D19D80E3C00AA00F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeMario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CAC4C8E19D80E3C00AA00F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeMario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CAC4C9019D80E3C00AA00F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeMarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeMario.app/LeMario";
+			};
+			name = Debug;
+		};
+		2CAC4C9119D80E3C00AA00F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeMarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeMario.app/LeMario";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CAC4C6419D80E3C00AA00F2 /* Build configuration list for PBXProject "LeMario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAC4C8A19D80E3C00AA00F2 /* Debug */,
+				2CAC4C8B19D80E3C00AA00F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAC4C8C19D80E3C00AA00F2 /* Build configuration list for PBXNativeTarget "LeMario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAC4C8D19D80E3C00AA00F2 /* Debug */,
+				2CAC4C8E19D80E3C00AA00F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAC4C8F19D80E3C00AA00F2 /* Build configuration list for PBXNativeTarget "LeMarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAC4C9019D80E3C00AA00F2 /* Debug */,
+				2CAC4C9119D80E3C00AA00F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CAC4C6119D80E3C00AA00F2 /* Project object */;
+}
